@@ -8,9 +8,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix
 
 # load data
-X_train_and_val = spio.loadmat('X_train_and_val_4.mat')
+X_train_and_val = spio.loadmat('X_train_and_val_2.mat')
 y_train_and_val = spio.loadmat('y_train_and_val_6class.mat')
-X_test = spio.loadmat('X_test_4.mat')
+X_test = spio.loadmat('X_test_2.mat')
 y_test = spio.loadmat('y_test_6class.mat')
 
 # extract design matrix and labels
